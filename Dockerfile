@@ -11,6 +11,6 @@ EXPOSE 2080 27000
 
 COPY files/* /opt/
 
-RUN chmod 755 /opt/run.sh
+RUN chmod 755 /opt/run.sh /opt/lmgrd /opt/lmutil /opt/adskflex
 
 ENTRYPOINT ["/opt/run.sh"]
