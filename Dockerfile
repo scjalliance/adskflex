@@ -11,4 +11,6 @@ EXPOSE 2080 27000
 
 COPY files/* /opt/
 
+RUN chmod 755 /opt/run.sh
+
 ENTRYPOINT ["/opt/run.sh"]
