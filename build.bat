@@ -1,3 +1,3 @@
 @echo off
 
-docker build -t scjalliance/flexnet .
+docker build -t scjalliance/adskflex .
