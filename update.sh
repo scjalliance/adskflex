@@ -3,7 +3,7 @@
 # Find the current release URL here:
 # https://knowledge.autodesk.com/search-result/caas/downloads/content/autodesk-network-license-manager-for-linux.html
 
-RELEASE="nlm11.14.1.3_ipv4_ipv6_linux64"
+RELEASE="nlm11.16.2.0_ipv4_ipv6_linux64"
 
 DIR=$(dirname "$(readlink -f "$0")")
 TEMPDIR="$(mktemp -d /tmp/adskupdate.XXXXXXXXXX)" || { echo "Failed to create temp directory"; exit 1; }
