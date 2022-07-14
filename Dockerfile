@@ -1,5 +1,5 @@
-FROM centos:centos7
-MAINTAINER emmaly.wilson@scjalliance.com
+FROM redhat/ubi8
+LABEL org.opencontainers.image.authors="emmaly.wilson@scjalliance.com"
 
 RUN yum -y update \
  && yum -y install redhat-lsb-core \
